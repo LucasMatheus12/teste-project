@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <button class="btn-play" onclick="playVideo()">Aperte Aqui 🫣</button> 
     <div class="container">
         <h1>Quer namorar comigo?</h1>
         <p>Desde que te conheci, minha vida mudou de uma maneira inexplicável. Eu quero compartilhar cada momento ao seu lado.</p>
@@ -17,7 +18,7 @@
     <div id="yesModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('yesModal')">&times;</span>
-            <p>Você fez meu coração muito feliz! ❤️</p>
+            <p>Obrigado por aceitar esse meu pedido de namoro, quero poder te fazer feliz em todos os nossos momentos juntos, demos mais um passo muito importante na nossa vida, espero que você conte comigo em qualquer momento na sua vida, principalmente naqueles dias mais ruins, Te amo mais a cada dia que passa, nossos momentos engraçados, carinhoso, tristes... isso que me fez perceber que você é minha pessoa certa e com esse pedido aceito, quero que você me encontre agora, saiba que você fez meu coração muito feliz! ❤️</p>
         </div>
     </div>
 
@@ -27,8 +28,8 @@
             <p>Tudo bem, respeito sua decisão. 😔</p>
         </div>
     </div>
-
-    <div id="player" style="display:none;"></div>
+    
+    <div id="player" class="hidden"></div>
 
     <script src="script.js"></script>
 </body>
